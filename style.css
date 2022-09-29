@@ -1,0 +1,143 @@
+/* Write some CSS below */
+html, body{
+	font-family: overpass;
+	margin: 0px;
+}
+
+.banner {
+	padding: 150px 0;
+	text-align: center;
+	background-image: url(images/banner/what-to-eat-final.png);
+		background-size: 100% 100%;
+		min-height: 420px;
+	background-repeat: no-repeat;
+	
+}
+
+
+.banner h1 {
+	font-size: 60px;
+	color: black;
+	font-style: oblique;
+	text-align: center;
+	font-family: Gergia cursive;
+}
+
+
+.banner h3 {
+	font-size: 22px;
+	color: grey;
+}
+
+
+.banner a {
+	padding: 18px 35px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+	background-color: #1A48E3;
+}
+
+
+.cards-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 15px;
+}
+
+.container{
+	
+	width: 800px;
+	margin: auto;
+	padding: 40px 0px;
+	
+}
+.background-container {
+	background-image: url("images/Others/foodingredients3.jpg");
+	background-repeat: repeat;
+}
+.card{
+	background-color: beige;
+	padding: 15px;
+	box-shadow: 5px 8px 10px darkgrey;
+}
+
+.card img{
+	object-fit: center;
+	width: 100%;
+	border-radius: 3px;
+}
+
+.card-random h5 {
+	text-align: center;
+	background-color: beige;
+	padding: 60px;
+	box-shadow: 5px 8px 10px darkgrey;
+	width: 200px;
+	height: 150px;
+	margin: auto;
+	margin-bottom: 25px;
+	border-radius: 3px;
+	border: 1px solid lightgrey;
+
+}
+
+
+
+.footer {
+	padding: 30px 0;
+	
+	background-color: grey;
+}
+
+
+img{ align-self: left;
+	width: 110px;
+	height: 120px;
+	border-radius: 50%;
+	margin-top:30px ;
+	display: inline-block;
+}
+.profile{}
+
+.text-design{
+	
+	
+}
+
+#app{
+	text-align: center;
+}
+
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	background-color: black;
+	padding: 5px;
+}
+#home{
+	justify-content: space-between;
+
+}
+
+ul {
+	display: inline-block;
+	text-align: left;
+	color: white;
+	font-family: Georgia;
+	font-style: oblique;
+
+}
+
+
+
+
+
+
+
+
+
+
+
